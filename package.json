@@ -1,0 +1,28 @@
+{
+   "name": "",
+   "description": "Validate the Website https://mind-wend-913065.framer.app/",
+   "scripts":{
+      "install:cypress": "npx cypress install",
+      "cy:open": "cypress open",
+      "cy:headless": "cypress run --headless --e2e"
+   },
+   "dependencies": {
+      "@cypress/skip-test": "2.6.1",
+      "cypress": "12.9.0",
+      "eslint": "8.25.0",
+		"eslint-config-standard": "17.0.0",
+		"eslint-plugin-filenames": "1.3.2",
+		"eslint-plugin-folders": "1.0.3",
+		"eslint-plugin-formatjs": "4.3.2",
+		"eslint-plugin-i18n-json": "4.0.0",
+		"eslint-plugin-import": "2.26.0",
+		"eslint-plugin-jsdoc": "39.6.4",
+		"eslint-plugin-n": "15.3.0",
+		"eslint-plugin-node": "11.1.0",
+		"eslint-plugin-only-ascii": "0.0.0",
+		"eslint-plugin-promise": "6.0.1",
+		"eslint-plugin-react": "7.31.8",
+		"eslint-plugin-react-func": "0.1.18",
+		"eslint-plugin-react-hooks": "4.6.0"
+    }
+}

@@ -1,30 +1,42 @@
-// Write test cases using Gherkin syntax
+Write test cases using Gherkin syntax:
+Given - initial condition
+When - the first performed action
+And - any additional needed step or action
+Then - the expected result
 
-1.
+1. Feature: Navigate to sponsors websites through their logos
+Given: Framer Site should contain sponsors logos
+And: have hover text
+When: logos are clicked
+Then: open their main website
 
+2. Feature: Watch video from Framer homepage
+Given: Existing Watch video button on the homepage
+And: the button has an animation when hovered
+When: the Watch video button is clicked
+Then: a video should be played
 
-2.
+3. Feature: Subscribe to a monthly plan
+Given: Open the Pricing page of the Framer site
+And: see the different plan options
+When: clicking the Subscribe button
+And: opens the payment options
+And: validate the credit card information
+And: click Confirm button
+Then: an notification for successful subscribe should pop
 
+4. Feature: Check Framer FAQs
+Given: Pricing page of the Framer site
+And: scroll to the bottom of the page
+And: see the FAQ section
+When: clicking on FAQ description
+Then: should expand the section
+And: show additional information
 
-3.
+5. Feature: Subscribe to Framer newspaper
+Given: homepage of the Framer site
+And: scroll to the bottom of the page
+When: a valid email is written in the input field
+And: Sign up button is clicked
+Then: the subscription is successfully created
 
-
-4.
-
-
-5.
-
-
-6.
-
-
-7.
-
-
-8.
-
-
-9.
-
-
-10.

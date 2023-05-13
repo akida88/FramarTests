@@ -1,8 +1,5 @@
 import Page from "./testOne_page";
 
-
-
-
 describe("Validate the Website", () => {
    // it("should display products' currency symbol as '$' in the 'Pricing' page", () => {
    //         Page.visit("google.com");
